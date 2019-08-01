@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto;
+}
+
+a {
+    padding: 0 8.5px;
+    color: white;
+}
+
+div { width: 195px; }
+
+ul:nth-child(1){ background: red; }
+
+ul:nth-child(1) > li > a { background: green; }
+
+ul:nth-child(1) > li:last-child > a { color: black; }
+
+ul:nth-child(1) > li:nth-child(1) > ul { background: #fefe00; }
+
+ul:nth-child(1) > li:nth-child(1) > ul > li > a { background: #81007e; }
+
+ul:nth-child(1) > li:nth-child(1) > ul > li:last-child > a { color: gold; }
+
+ul:nth-child(2) { background: red; }
+
+ul:nth-child(2) > li > a { background: black; }
+
+ul:nth-child(2) > li:last-child > a { color: gold; }
+
+ol { background: yellow; }
+
+ol a { color: gold }
+
+ol li:nth-child(even) > a { background: #0f1bcc; }
+
+ol li:nth-child(odd) > a { background: #a9c5dc; }
